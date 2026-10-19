@@ -6,7 +6,9 @@ Proyecto desarrollado para la consultora **API Ltda.** en colaboración con la *
 
 Este repositorio contiene las soluciones desarrolladas para la modernización de los sistemas de la Biblioteca Nacional:
 
-1. **Software de Geolocalización:** Script interactivo (`geolocalizacion.py`) que consume la API de **GraphHopper** para calcular rutas hacia la biblioteca, ofreciendo:
+
+1. **Gestión de Catálogo (API REST):** Script en Python (`poblar_biblioteca.py`) para automatizar el poblamiento de libros mediante la API REST y consultar el catálogo completo.
+2. **Software de Geolocalización:** Script interactivo (`geolocalizacion.py`) que consume la API de **GraphHopper** para calcular rutas hacia la biblioteca, ofreciendo:
    - Interfaz y narrativa del viaje paso a paso completamente en español.
    - Formato numérico de distancia y tiempo redondeado a un máximo de dos decimales.
    - Opción de salida limpia mediante las palabras clave `"s"` o `"salir"`.
